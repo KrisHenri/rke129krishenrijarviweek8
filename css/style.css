@@ -66,10 +66,13 @@ body {
 }
 
 .profile-photo img {
-  display: block;
-  width: 210px;
-  height: auto;
+  .profile-photo img {
+  width: 249px;
+  height: 380px;
   object-fit: cover;
+  border-radius: 4px;
+}
+
 }
 
 .profile-summary h2 {
@@ -158,10 +161,12 @@ body {
 
 /* RESPONSIVE – mobiil */
 
-@media (max-width: 768px) {
-  .profile {
-    flex-direction: column;
-  }
+@media (max-width: 480px) {
+  .profile-photo img {
+    width: 180px;
+    height: auto;
+}
+
 
   .skills-grid {
     flex-direction: column;
