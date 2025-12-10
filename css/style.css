@@ -60,12 +60,17 @@ body {
   margin-bottom: 40px;
 }
 
+.profile-photo {
+  max-width: 160px;
+}
+
 .profile-photo img {
-  width: 180px;
-  height: 275px;
-  object-fit: cover;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
   border-radius: 4px;
 }
+
 
 .profile-summary h2 {
   margin: 0 0 10px;
